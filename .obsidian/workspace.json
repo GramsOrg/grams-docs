@@ -18,8 +18,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "755414a1a0b8e033",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/topics/Installation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7319fe5d9d36bc1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,6 +163,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08922232848095d7",
-  "lastOpenFiles": []
+  "active": "d95598f9a85ddb2f",
+  "lastOpenFiles": [
+    "sdk/Developer Guide.md",
+    "docs/topics/Installation.md",
+    "docs/topics/Overview.md",
+    "docs/topics/installation.md",
+    "app/User Guide.md",
+    "README.md"
+  ]
 }
