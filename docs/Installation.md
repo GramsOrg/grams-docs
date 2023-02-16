@@ -1,4 +1,5 @@
-## Installing grams-sdk
+
+## Installation
 
 The Grams SDK offers comprehensive support for building decentralized applications (dApps) on various platforms, including JavaScript, Android, and Unity. This guide outlines the steps to install and set up the Grams SDK for each platform.
 
