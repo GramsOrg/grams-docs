@@ -1,145 +1,232 @@
-## Wallet
+## `Wallet`
+
+The Wallet module is used to manage Grams wallets. A wallet is a collection of accounts and is identified by a name.
+
+### Constructor
+
+```
+const wallet = new Wallet(options)
+```
+
+Creates a new instance of the `Wallet` class.
+
+#### Parameters
+
+-   `options` (object, optional): Options to configure the `Wallet` instance.
+    -   `endpoint` (string, optional): The URL of the Grams network endpoint. Default: `https://grams.network`.
+    -   `network` (string, optional): The Grams network to connect to. Default: `mainnet`.
 
 ----
 
-### init(name, password)
+### `init(name, password, options)`
 
-Creates a new wallet and returns the mnemonic phrase.
+Initializes the wallet with a name and password and returns a mnemonic phrase.
 
 #### Parameters
-* None
+
+-   `name` (string): The name of the wallet.
+-   `password` (string): The password to use to encrypt the wallet.
+-   `options` (object, optional): Options to configure the `Wallet` instance.
+    -   `mnemonic` (string, optional): The 24-word seed phrase to use to initialize the wallet.
+
 #### Returns
-* `mnemonic` (string): Space separated 24-word seed string.
+
+-   `mnemonic` (string): Space separated 24-word seed string.
+
 #### Errors
-* `InvalidAccount`: Raised if the account is invalid or could not be created.
+
+-   `InvalidWalletName`: Raised if the name is not a valid wallet name.
+-   `InvalidWalletPassword`: Raised if the password is not a valid wallet password.
+-   `WalletAlreadyExists`: Raised if a wallet with the given name already exists.
+
 #### Example
 
 ```
+const wallet = new Wallet()
+const mnemonic = wallet.init('My Wallet', 'myPassword') 
+console.log(mnemonic)
 ```
 
 ----
 
-### login(name, password)
+### `login(name, password)`
 
-Creates a new wallet and returns the mnemonic phrase.
+Logs into an existing wallet.
 
 #### Parameters
-* None
+
+-   `name` (string): The name of the wallet.
+-   `password` (string): The password to use to decrypt the wallet.
+
 #### Returns
-* `mnemonic` (string): Space separated 24-word seed string.
+
+-   None
+
 #### Errors
-* `InvalidAccount`: Raised if the account is invalid or could not be created.
+
+-   `WalletNotFound`: Raised if a wallet with the given name does not exist.
+-   `InvalidWalletPassword`: Raised if the password is incorrect.
+
 #### Example
 
 ```
+const wallet = new Wallet()
+wallet.login('My Wallet', 'myPassword')
 ```
-
 
 ----
 
-### createAccount(name)
+### `createAccount(name)`
 
-Creates a new wallet and returns the mnemonic phrase.
+Creates a new account in the wallet with the specified name.
 
 #### Parameters
-* None
+
+-   `name` (string): The name of the account.
+
 #### Returns
-* `mnemonic` (string): Space separated 24-word seed string.
+
+-   An instance of the `Account` class representing the new account.
+
 #### Errors
-* `InvalidAccount`: Raised if the account is invalid or could not be created.
+
+-   `InvalidAccountName`: Raised if the account name is invalid or already in use.
+
 #### Example
 
 ```
+const wallet = new Wallet()
+wallet.login('My Wallet', 'myPassword')
+const account = wallet.createAccount('My Account')
+console.log(account.address)
 ```
-
 
 ----
 
-### getAccounts()
+### `getAccounts()`
 
-Creates a new wallet and returns the mnemonic phrase.
+Returns an array of all accounts in the wallet.
 
 #### Parameters
-* None
+
+-   None
+
 #### Returns
-* `mnemonic` (string): Space separated 24-word seed string.
+
+-   An array of `Account` objects.
+
 #### Errors
-* `InvalidAccount`: Raised if the account is invalid or could not be created.
+
+-   None
+
 #### Example
 
 ```
+const wallet = new Wallet()
+wallet.login('My Wallet', 'myPassword')
+const accounts = wallet.getAccounts() accounts.forEach(account => console.log(account.address))
 ```
-
 
 ----
 
-### getAccount(name)
+### `getAccount(name)`
 
-Creates a new wallet and returns the mnemonic phrase.
+Returns the account with the specified name.
 
 #### Parameters
-* None
+
+-   `name` (string): The name of the account to return.
+
 #### Returns
-* `mnemonic` (string): Space separated 24-word seed string.
+
+-   An instance of the `Account` class representing the account.
+
 #### Errors
-* `InvalidAccount`: Raised if the account is invalid or could not be created.
+
+-   `AccountNotFound`: Raised if an account with the given name does not exist.
+
 #### Example
 
 ```
+const wallet = new Wallet()
+wallet.login('My Wallet', 'myPassword')
+const account = wallet.getAccount('My Account')
+console.log(account.address)
 ```
-
 
 ----
 
-### changePassword(oldPassword, newPassword)
+### `changePassword(oldPassword, newPassword)`
 
-Creates a new wallet and returns the mnemonic phrase.
+Change the password of the currently logged in account.
 
 #### Parameters
-* None
+
+-   `oldPassword` (string): The current password for the account.
+-   `newPassword` (string): The new password for the account.
+
 #### Returns
-* `mnemonic` (string): Space separated 24-word seed string.
+
+-   None
+
 #### Errors
-* `InvalidAccount`: Raised if the account is invalid or could not be created.
+
+-   `InvalidPassword`: Raised if the old password is incorrect or if the new password does not meet the password requirements.
+
 #### Example
 
 ```
+wallet.changePassword('oldpassword', 'newpassword')
 ```
-
 
 ----
 
-### backup(path, password)
+### `backup(path, password)`
 
-Creates a new wallet and returns the mnemonic phrase.
+Backup the entire wallet to a file.
 
 #### Parameters
-* None
+
+-   `path` (string): The full path of the file to save the backup to.
+-   `password` (string): The password to encrypt the backup file.
+
 #### Returns
-* `mnemonic` (string): Space separated 24-word seed string.
+
+-   None
+
 #### Errors
-* `InvalidAccount`: Raised if the account is invalid or could not be created.
+
+-   `InvalidBackupPath`: Raised if the backup path is not valid or if there is an issue saving the backup.
+-   `InvalidPassword`: Raised if the password does not meet the password requirements.
+
 #### Example
 
 ```
+wallet.backup('/path/to/backup/file', 'backuppassword')
 ```
-
 
 ----
 
-### restore(path, password)
+### `restore(path, password)`
 
-Creates a new wallet and returns the mnemonic phrase.
+Restore a wallet from a backup file.
 
 #### Parameters
-* None
+
+-   `path` (string): The full path of the backup file to restore from.
+-   `password` (string): The password to decrypt the backup file.
+
 #### Returns
-* `mnemonic` (string): Space separated 24-word seed string.
+
+-   None
+
 #### Errors
-* `InvalidAccount`: Raised if the account is invalid or could not be created.
+
+-   `InvalidBackupPath`: Raised if the backup path is not valid or if there is an issue reading the backup.
+-   `InvalidPassword`: Raised if the password does not meet the password requirements.
+
 #### Example
 
 ```
+wallet.restore('/path/to/backup/file', 'backuppassword')
 ```
-
-
