@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Core Concepts.md",
+                "file": "docs/API Reference/Account.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,8 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "39ef7806ab76700a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Core Concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -170,17 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "755414a1a0b8e033",
+  "active": "39ef7806ab76700a",
   "lastOpenFiles": [
-    "docs/Overview.md",
-    "docs/API Reference/Passport.md",
+    "docs/API Reference.md",
     "docs/API Reference/Wallet.md",
     "docs/API Reference/Account.md",
     "docs/Core Concepts.md",
+    "docs/Overview.md",
+    "docs/API Reference/Passport.md",
     "docs/Installation.md",
     "README.md",
     "app/User Guide.md",
-    "sdk/Developer Guide.md",
-    "docs/topics/installation.md"
+    "sdk/Developer Guide.md"
   ]
 }
