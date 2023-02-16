@@ -196,8 +196,6 @@ console.log(transaction);
 
 ---
 
-> `sendAmount` will deduct the amount from the account regardless of the validity of the address
-
 ### `sendAmount(recipient, amount, options)`
 
 Sends a specified amount of grams to the given recipient address or a specified amount of tokens to the recipient's address, from the current account.
