@@ -8,43 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08922232848095d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "755414a1a0b8e033",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/topics/Installation.md",
+                "file": "docs/Core Concepts.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b7319fe5d9d36bc1",
+            "id": "18f789a7e58c53c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/topics/Installation.md",
+                "file": "docs/Core Concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8038884a589f8a60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/API Reference/Wallet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/topics/Installation.md",
+                "file": "docs/Core Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/topics/Installation.md",
+                "file": "docs/Core Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/topics/Installation.md"
+                "file": "docs/Core Concepts.md"
               }
             }
           }
@@ -171,13 +170,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7319fe5d9d36bc1",
+  "active": "755414a1a0b8e033",
   "lastOpenFiles": [
+    "docs/Overview.md",
+    "docs/API Reference/Passport.md",
+    "docs/API Reference/Wallet.md",
+    "docs/API Reference/Account.md",
+    "docs/Core Concepts.md",
+    "docs/Installation.md",
+    "README.md",
     "app/User Guide.md",
     "sdk/Developer Guide.md",
-    "docs/topics/Installation.md",
-    "docs/topics/Overview.md",
-    "docs/topics/installation.md",
-    "README.md"
+    "docs/topics/installation.md"
   ]
 }

@@ -62,9 +62,9 @@ Passport wallet = new Passport();
 ### Prerequisites
 
 * Swift 5.0 or higher.
-- Xcode 11.0 or higher.
-- iOS 11.0 or higher.
-- Cocoapods 1.8.4 or higher.
+* Xcode 11.0 or higher.
+* iOS 11.0 or higher.
+* Cocoapods 1.8.4 or higher.
 
 ### Steps
 
