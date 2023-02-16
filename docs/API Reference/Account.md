@@ -145,7 +145,8 @@ Returns transaction data based on the transaction id.
 #### Example
 
 ```
-const transaction = account.getTransaction('0x123456789abcdef'); console.log(transaction);
+const transaction = account.getTransaction('0x123456789abcdef');
+console.log(transaction);
 ```
 
 ---
@@ -194,6 +195,9 @@ console.log(transaction);
 ```
 
 ---
+
+> [!Danger]
+> `sendAmount` will deduct the amount from the account regardless of the validity of the address
 
 ### `sendAmount(recipient, amount, options)`
 
