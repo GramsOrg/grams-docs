@@ -6,7 +6,7 @@ The Grams SDK offers comprehensive support for building decentralized applicatio
 
 ### Prerequisites
 
-* Node.js version 12.x or higher
+* Node.js version 14.x or higher
 * NPM package manager
 
 ### Steps
@@ -15,13 +15,13 @@ The Grams SDK offers comprehensive support for building decentralized applicatio
 2. Run the following command to install the Grams SDK as a dependency:
 
 ```
-npm install @grams/sdk
+npm install grams-sdk
 ```
 
 3.  Import the SDK to your project:
 
 ```
-const { Wallet, Passport } = require('@grams/sdk');
+const { Wallet, Passport } = require('grams-sdk');
 ```
 
 4.  Use the SDK by instantiating a new Grams SDK object:
@@ -55,6 +55,33 @@ import io.grams.sdk.Grams.Passport;
 // Initialize the Grams SDK
 Wallet wallet = new Wallet();
 Passport wallet = new Passport();
+```
+
+## Swift
+
+### Prerequisites
+
+* Swift 5.0 or higher.
+- Xcode 11.0 or higher.
+- iOS 11.0 or higher.
+- Cocoapods 1.8.4 or higher.
+
+### Steps
+
+1.  Open Xcode and create a new project or open your existing project
+2. Add the following to your `Podfile`
+
+```
+pod 'GramsSDK', '~> 1.0.0'
+```
+
+3. Run `pod install` to install the SDK
+4. In your Swift file, import the Grams SDK module
+
+```
+import GramsSDK.Wallet
+
+let wallet = Wallet.init()
 ```
 
 ## Unity

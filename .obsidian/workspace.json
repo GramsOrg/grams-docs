@@ -35,8 +35,12 @@
             "id": "b7319fe5d9d36bc1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/topics/Installation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -106,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/topics/Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/topics/Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/topics/Installation.md"
+              }
             }
           }
         ]
@@ -163,13 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d95598f9a85ddb2f",
+  "active": "b7319fe5d9d36bc1",
   "lastOpenFiles": [
+    "app/User Guide.md",
     "sdk/Developer Guide.md",
     "docs/topics/Installation.md",
     "docs/topics/Overview.md",
     "docs/topics/installation.md",
-    "app/User Guide.md",
     "README.md"
   ]
 }
