@@ -196,7 +196,6 @@ console.log(transaction);
 
 ---
 
-> [!Danger]
 > `sendAmount` will deduct the amount from the account regardless of the validity of the address
 
 ### `sendAmount(recipient, amount, options)`
