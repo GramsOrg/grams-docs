@@ -4,143 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a2acedcdde5df4b8",
+        "id": "1f439b714296c985",
         "type": "tabs",
         "children": [
           {
-            "id": "755414a1a0b8e033",
+            "id": "82c383167d907be7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/API Reference/Account.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35f3880031b280b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Getting Started.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93aaa309d59b4172",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Code Examples.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b021270d61ddb4c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Platform Specific Concepts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcdb6994214ce309",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Testing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45bbf626e09e0b2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Code Examples/Node JS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88830611853bacb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Code Examples/Android.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0980c0fcc5482dcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Code Examples/Swift.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c42cbaed52f87d6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Code Examples/Node JS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18f789a7e58c53c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Core Concepts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8038884a589f8a60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/API Reference/Passport.md",
+                "file": "docs/Code Examples/Wallet/Node JS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Code Examples/Node JS.md",
+                "file": "docs/Code Examples/Wallet/Node JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Code Examples/Node JS.md",
+                "file": "docs/Code Examples/Wallet/Node JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Code Examples/Node JS.md"
+                "file": "docs/Code Examples/Wallet/Node JS.md"
               }
             }
           }
@@ -267,12 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c42cbaed52f87d6c",
+  "active": "82c383167d907be7",
   "lastOpenFiles": [
-    "docs/Code Examples/Unity.md",
-    "docs/Code Examples/Swift.md",
-    "docs/Code Examples/Android.md",
-    "docs/Code Examples/Node JS.md",
+    "docs/Code Examples/Wallet/Android.md",
+    "docs/Code Examples/Wallet/Node JS.md",
+    "docs/Code Examples/Wallet/Unity.md",
+    "docs/Code Examples/Wallet/Swift.md",
     "docs/Testing.md",
     "docs/Platform Specific Concepts.md",
     "docs/Overview.md",
