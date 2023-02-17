@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Code Examples/Wallet/Node JS.md",
+                "file": "docs/Getting Started.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Code Examples/Wallet/Node JS.md",
+                "file": "docs/Getting Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Code Examples/Wallet/Node JS.md",
+                "file": "docs/Getting Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Code Examples/Wallet/Node JS.md"
+                "file": "docs/Getting Started.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "82c383167d907be7",
   "lastOpenFiles": [
-    "docs/Code Examples/Wallet/Android.md",
     "docs/Code Examples/Wallet/Node JS.md",
+    "docs/Code Examples/Wallet/Android.md",
     "docs/Code Examples/Wallet/Unity.md",
     "docs/Code Examples/Wallet/Swift.md",
     "docs/Testing.md",
