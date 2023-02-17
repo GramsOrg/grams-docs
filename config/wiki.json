@@ -7,17 +7,37 @@
             "title": "Overview",
             "path": "wiki/overview"
         }, {
-            "id": "installation",
-            "title": "Installation",
-            "path": "wiki/installation"
-        }, {
             "id": "getting_started",
             "title": "Getting Started",
             "path": "wiki/getting_started"
         }, {
-            "id": "examples",
-            "title": "Code Examples",
-            "path": "examples",
+            "id": "use_grams",
+            "title": "Use Grams",
+            "path": "wiki/use_grams"
+        }, {
+            "id": "how_it_works",
+            "title": "How It Works",
+            "path": "wiki/how_it_works"
+        }, {
+            "id": "grams_token",
+            "title": "Grams Token",
+            "path": "wiki/grams_token"
+        }, {
+            "id": "use_cases",
+            "title": "Use Cases",
+            "path": "wiki/use_cases"
+        }, {
+            "id": "glossary",
+            "title": "Glossary",
+            "path": "wiki/glossary"
+        }, {
+            "id": "faq",
+            "title": "FAQ",
+            "path": "wiki/faq"
+        }, {
+            "id": "concepts",
+            "title": "Core Concepts",
+            "path": "concepts",
             "items": [
                 {
                     "id": "node",

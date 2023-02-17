@@ -38,6 +38,25 @@
                 }
             ]
         }, {
+            "id": "develop",
+            "title": "Dvelop On Grams",
+            "path": "developer_guide/develop",
+            "items": [
+                {
+                    "id": "developing",
+                    "title": "Developing",
+                    "path": "developer_guide/develop/developing"
+                }, {
+                    "id": "testing",
+                    "title": "Testing",
+                    "path": "developer_guide/develop/testing"
+                }, {
+                    "id": "deploying",
+                    "title": "Deploying",
+                    "path": "developer_guide/develop/deploying"
+                }
+            ]
+        }, {
             "id": "core",
             "title": "Core Concepts",
             "path": "developer_guide/core_concepts",
@@ -85,6 +104,14 @@
                     "id": "browser",
                     "title": "Browser",
                     "path": "developer_guide/platform_specific_concepts/browser"
+                }, {
+                    "id": "mobile",
+                    "title": "Mobile",
+                    "path": "developer_guide/platform_specific_concepts/mobile"
+                }, {
+                    "id": "desktop",
+                    "title": "Desktop",
+                    "path": "developer_guide/platform_specific_concepts/desktop"
                 }
             ]
         }, {
@@ -122,10 +149,6 @@
                     "path": "developer_guide/low_level_api/subject"
                 }
             ]
-        }, {
-            "id": "testing",
-            "title": "Testing",
-            "path": "developer_guide/testing"
         }, {
             "id": "api_reference",
             "title": "API Reference",
