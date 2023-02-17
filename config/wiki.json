@@ -1,20 +1,19 @@
 {
     "id": "wiki",
     "title": "Wiki",
-    "path": "wiki",
     "items": [
         {
             "id": "overview",
             "title": "Overview",
-            "path": "overview"
+            "path": "wiki/overview"
         }, {
             "id": "installation",
             "title": "Installation",
-            "path": "installation"
+            "path": "wiki/installation"
         }, {
             "id": "getting_started",
             "title": "Getting Started",
-            "path": "getting_started"
+            "path": "wiki/getting_started"
         }, {
             "id": "examples",
             "title": "Code Examples",
@@ -23,15 +22,15 @@
                 {
                     "id": "node",
                     "title": "Node JS",
-                    "path": "examples/node"
+                    "path": "wiki/examples/node"
                 }, {
                     "id": "android",
                     "title": "Android",
-                    "path": "examples/android"
+                    "path": "wiki/examples/android"
                 }, {
                     "id": "android",
                     "title": "Android",
-                    "path": "examples/android"
+                    "path": "wiki/examples/android"
                 }
             ]
         }
