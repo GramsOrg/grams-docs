@@ -11,8 +11,12 @@
             "id": "b21ee63623c790d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "developer_guide/contributing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "developer_guide/contributing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "developer_guide/contributing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "developer_guide/contributing.md"
+              }
             }
           }
         ]
@@ -138,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d95598f9a85ddb2f",
+  "active": "b21ee63623c790d4",
   "lastOpenFiles": [
-    "docs/Code Examples/Wallet/Node JS.md",
-    "docs/Code Examples/Wallet/Android.md",
-    "docs/Code Examples/Wallet/Unity.md",
-    "docs/Code Examples/Wallet/Swift.md",
-    "docs/Testing.md",
-    "docs/Platform Specific Concepts.md",
-    "docs/Overview.md",
-    "docs/Installation.md",
-    "docs/Getting Started.md",
-    "docs/FAQ.md"
+    "developer_guide/overview.md",
+    "developer_guide/platform_specific_concepts.md",
+    "developer_guide/installation.md",
+    "developer_guide/faq.md",
+    "developer_guide/examples/unity.md",
+    "developer_guide/examples/swift.md",
+    "developer_guide/examples/android.md",
+    "developer_guide/api_reference/wallet.md",
+    "developer_guide/api_reference/passport.md",
+    "developer_guide/api_reference/account.md"
   ]
 }
