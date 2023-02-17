@@ -128,6 +128,6 @@ wallet.disconnect()
 
 The `disconnect()` function returns a promise that resolves once the SDK has disconnected from the wallet.
 
-#### Conclusion
+### Conclusion
 
 In this walkthrough, we created a simple DApp that uses the Grams SDK to connect to a Grams wallet and interact with an account. The Grams SDK provides a simple and powerful interface for interacting with the Grams blockchain, making it easy to create powerful and decentralized applications.

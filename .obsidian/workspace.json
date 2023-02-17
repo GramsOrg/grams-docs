@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1f439b714296c985",
+        "id": "b55e6bdee1762924",
         "type": "tabs",
         "children": [
           {
-            "id": "82c383167d907be7",
+            "id": "b21ee63623c790d4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Getting Started.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Getting Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Getting Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/Getting Started.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,7 +138,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82c383167d907be7",
+  "active": "d95598f9a85ddb2f",
   "lastOpenFiles": [
     "docs/Code Examples/Wallet/Node JS.md",
     "docs/Code Examples/Wallet/Android.md",
