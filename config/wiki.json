@@ -27,6 +27,45 @@
             "title": "Use Cases",
             "path": "wiki/use_cases"
         }, {
+            "id": "core",
+            "title": "Core Concepts",
+            "path": "wiki/core_concepts",
+            "items": [
+                {
+                    "id": "wallet",
+                    "title": "Wallet",
+                    "path": "wiki/core_concepts/wallet"
+                }, {
+                    "id": "passport",
+                    "title": "Passport",
+                    "path": "wiki/core_concepts/passport"
+                }, {
+                    "id": "collectibles",
+                    "title": "Collectibles",
+                    "path": "wiki/core_concepts/collectibles"
+                }, {
+                    "id": "governance",
+                    "title": "Governance",
+                    "path": "wiki/core_concepts/governance"
+                }, {
+                    "id": "files",
+                    "title": "Files",
+                    "path": "wiki/core_concepts/files"
+                }, {
+                    "id": "hosting",
+                    "title": "Hosting",
+                    "path": "wiki/core_concepts/hosting"
+                }, {
+                    "id": "names",
+                    "title": "Names",
+                    "path": "wiki/core_concepts/names"
+                }, {
+                    "id": "subject",
+                    "title": "Subject",
+                    "path": "wiki/core_concepts/subject"
+                }
+            ]
+        }, {
             "id": "glossary",
             "title": "Glossary",
             "path": "wiki/glossary"
@@ -34,25 +73,6 @@
             "id": "faq",
             "title": "FAQ",
             "path": "wiki/faq"
-        }, {
-            "id": "concepts",
-            "title": "Core Concepts",
-            "path": "concepts",
-            "items": [
-                {
-                    "id": "node",
-                    "title": "Node JS",
-                    "path": "wiki/examples/node"
-                }, {
-                    "id": "android",
-                    "title": "Android",
-                    "path": "wiki/examples/android"
-                }, {
-                    "id": "android",
-                    "title": "Android",
-                    "path": "wiki/examples/android"
-                }
-            ]
         }
     ]
 }

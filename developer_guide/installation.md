@@ -3,7 +3,203 @@
 
 The Grams SDK offers comprehensive support for building decentralized applications (dApps) on various platforms, including JavaScript, Android, and Unity. This guide outlines the steps to install and set up the Grams SDK for each platform.
 
+## Prerequisites
+
+Before you get started, make sure you have the following:
+
+-   A Grams developer account. If you don't have one, you can sign up [here](https://grams.com/developer).
+-   Your Grams app ID and secret. You can get these from your Grams developer dashboard.
+
 ## Node JS
+
+### Prerequisites
+
+Before installing the SDK, ensure that the following prerequisites are installed:
+
+-   Node.js version 14 or higher.
+-   NPM package manager.
+
+### Installation for Browser Applications
+
+To install the SDK for use in browser applications, run the following command in your terminal:
+
+```
+npm install grams-sdk
+```
+
+### Installation for React Native Applications
+
+To install the SDK for use in React Native applications, run the following command in your terminal:
+
+```
+npm install grams-sdk-react-native
+```
+
+### Installation for Desktop Applications
+
+To install the SDK for use in desktop applications, run the following command in your terminal:
+
+```
+npm install grams-sdk-electron
+```
+
+### Initialization Example
+
+After installing the SDK, you can initialize Grams by creating a new instance of the SDK and passing in the necessary configuration options:
+
+```
+const grams = require('grams-sdk');
+
+// Set up your app credentials
+const appId = 'YOUR_APP_ID';
+const appSecret = 'YOUR_APP_SECRET';
+
+// Initialize the Grams SDK
+const sdk = new grams.SDK({
+  appId,
+  appSecret,
+});
+
+// Use the SDK to call an API method
+sdk.getBalance((err, balance) => {
+  if (err) {
+    console.error('Error getting balance:', err);
+  } else {
+    console.log('Balance:', balance);
+  }
+});
+```
+
+By default, the SDK is initialized in test mode. To switch to production mode, pass the `mode: 'production'` option when initializing the SDK.
+
+## Android
+
+### Prerequisites
+
+-   Android Studio 3.0 or later
+-   Android API Level 21 or later
+-   JDK 8 or later
+
+### Installation
+
+1.  Add the following to your app-level `build.gradle` file:
+
+```
+dependencies {
+    implementation 'org.grams:grams-sdk:1.0.0'
+}
+```
+
+2.  Sync your project with Gradle.
+
+### Initialization
+
+Here is an example of how to initialize the Grams SDK in an Android application:
+
+```
+import io.grams.sdk.Grams;
+import io.grams.sdk.exceptions.InitializationException;
+
+public class MainActivity extends AppCompatActivity {
+    private static final String API_KEY = "your-api-key";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        try {
+            Grams.initialize(getApplicationContext(), API_KEY);
+        } catch (InitializationException e) {
+            // handle initialization exception
+        }
+    }
+}
+
+```
+
+## Swift
+
+### Prerequisites
+
+-   Xcode 11 or later
+-   Swift 5.0 or later
+
+### Installation
+
+1.  Add the following to your `Podfile`:
+
+```
+target 'MyApp' do
+  pod 'GramsSDK'
+end
+```
+
+2.  Run `pod install`.
+
+### Initialization
+
+Here is an example of how to initialize the Grams SDK in a Swift application:
+
+```
+import GramsSDK
+
+// Set up your app credentials
+let appId = "YOUR_APP_ID"
+let appSecret = "YOUR_APP_SECRET"
+
+// Initialize the Grams SDK
+let sdk = GramsSDK(appId: appId, appSecret: appSecret)
+
+// Use the SDK to call an API method
+sdk.getBalance { (balance, error) in
+  if let error = error {
+    print("Error getting balance:", error)
+  } else {
+    print("Balance:", balance)
+  }
+}
+```
+
+## Unity
+
+### Prerequisites
+
+-   Unity 2019.2 or later
+
+### Installation
+
+1.  Download the Grams Unity package from the [Grams SDK releases page](https://github.com/grams-io/grams-sdk/releases).
+2.  Import the package into your Unity project.
+
+### Initialization
+
+Here is an example of how to initialize the Grams SDK in a Unity application:
+
+```
+using GramsSDK;
+
+// Set up your app credentials
+string appId = "YOUR_APP_ID";
+string appSecret = "YOUR_APP_SECRET";
+
+// Initialize the Grams SDK
+var sdk = new SDK(appId, appSecret);
+
+// Use the SDK to call an API method
+sdk.GetBalance((balance, error) => {
+  if (error != null) {
+    Debug.LogError("Error getting balance: " + error);
+  } else {
+    Debug.Log("Balance: " + balance);
+  }
+});
+```
+
+
+
+
+
 
 ### Prerequisites
 

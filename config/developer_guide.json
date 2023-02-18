@@ -86,6 +86,10 @@
                     "title": "Hosting",
                     "path": "developer_guide/core_concepts/hosting"
                 }, {
+                    "id": "names",
+                    "title": "Names",
+                    "path": "developer_guide/core_concepts/names"
+                }, {
                     "id": "subject",
                     "title": "Subject",
                     "path": "developer_guide/core_concepts/subject"
