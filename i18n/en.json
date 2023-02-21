@@ -1,0 +1,24 @@
+{
+    "translation": {
+      "newProfile": "New",
+      "dev": "DEV",
+      "selectLanguage": "Select Language",
+      "select": "Select",
+      "agreeTerms": "I have read and agree to the terms of use.",
+      "agree": "Agree",
+      "createProfileTitle": "Create a profile",
+      "createProfileDesc": "You can create as many profiles as you would like later. For now, let's start with the bare minimum.",
+      "passwordreq0": "Your password must:",
+      "passwordreq1": "be at least 8 characters long",
+      "passwordreq2": "contain at least one lowercase letter",
+      "passwordreq3": "contain at least one uppercase letter",
+      "passwordreq4": "contain at least one number",
+      "passwordreq5": "contain at least one special character (!@#$%^&*)",
+      "name": "Name",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "create": "Create",
+      "setupTitle": "Please wait",
+      "setupDesc": "We are getting things ready for you"
+    }
+}
