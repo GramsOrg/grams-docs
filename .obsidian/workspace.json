@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "developer_guide/core_concepts/files.md",
+                "file": "developer_guide/api_reference/Account.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "developer_guide/core_concepts/files.md",
+                "file": "developer_guide/api_reference/Account.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "developer_guide/core_concepts/files.md",
+                "file": "developer_guide/api_reference/Account.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "developer_guide/core_concepts/files.md"
+                "file": "developer_guide/api_reference/Account.md"
               }
             }
           }
@@ -221,15 +221,15 @@
   },
   "active": "4454ec88a1a5aae2",
   "lastOpenFiles": [
+    "developer_guide/api_reference/Wallet.md",
+    "developer_guide/core_concepts/files.md",
     "developer_guide/core_concepts/governance.md",
     "developer_guide/core_concepts/names.md",
     "developer_guide/core_concepts/hosting.md",
     "developer_guide/core_concepts/collectibles.md",
-    "developer_guide/core_concepts/files.md",
     "developer_guide/core_concepts/wallet.md",
     "developer_guide/core_concepts/subject.md",
     "developer_guide/core_concepts/passport.md",
-    "developer_guide/api_reference/Wallet.md",
     "developer_guide/installation.md"
   ]
 }
